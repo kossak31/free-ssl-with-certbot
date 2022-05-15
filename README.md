@@ -15,6 +15,12 @@ sudo apt install certbot -y
 
 ## run certbot
 ```
+sudo certbot --apache
+sudo certbot --nginx
+```
+
+## run certbot ONLY CERTS
+```
 sudo certbot certonly --apache
 sudo certbot certonly --nginx
 ```
